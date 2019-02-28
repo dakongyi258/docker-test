@@ -15,13 +15,11 @@ public class CalculateController {
 
 	@RequestMapping("/cal/{x}/{operate}/{y}")
 	public int cal(@PathVariable int x, @PathVariable String operate, @PathVariable int y) {
-		System.out.println("Provider1 提供服务...........................................");
 		return calculateService.cal(x, y, operate);
 	}
 
 	@RequestMapping(value = "/say/{name}", method = RequestMethod.GET)
 	public String say(@PathVariable String name) {
-		System.out.println("Provider1 提供服务...........................................");
 		return "hello " + name;
 	}
 }
