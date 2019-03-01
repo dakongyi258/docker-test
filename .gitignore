@@ -24,3 +24,7 @@
 /dist/
 /nbdist/
 /.nb-gradle/
+
+### Commit message ###
+/node_modules
+package*.json
