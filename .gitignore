@@ -28,3 +28,4 @@
 ### Commit message ###
 /node_modules
 package*.json
+CHANGELOG.md
